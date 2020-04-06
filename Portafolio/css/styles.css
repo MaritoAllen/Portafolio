@@ -1,0 +1,112 @@
+
+/* REMS */
+html{
+  font-size: 62.5%; /* 10 px = 1 rem*/
+  padding-bottom: 0%;
+}
+/* GLOBALES */
+body{
+  font-family: 'Gotu', sans-serif;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+h1{
+  font-size: 3.5rem;
+}
+h2{
+  font-size: 3rem;
+}
+h3{
+  font-size: 2.5;
+}
+p{
+  font-size: 1.6rem;
+}
+
+/* HEADER */
+
+.header-index{
+  font-size: 1.8rem;
+  height: 100vh;
+  background-image: url(/media/Portada2.jpg);
+  background-position: center;
+  background-size:cover;
+}
+.header{
+  
+  font-size: 1.8rem;
+  height: 10vh;
+  background-color: #142F31;
+}
+.content-head{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  color: white;
+  padding-left: 4rem
+}
+.navbar{
+
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 2rem 1.5rem 2rem;
+}
+.navbar a{
+  color: white;
+}
+.navbar li{
+  list-style: none;
+  display: inline;
+  justify-content: center;
+  padding: 1.4rem 1.6rem 1.4rem 1.6rem;
+}
+
+
+/* BODY */
+
+.contenedor{
+  margin: 6rem 6rem 6rem 12rem;
+  width: 100rem;
+}
+.contenido-per{
+  display: flex;
+  justify-content: space-between;
+}
+.info{
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.info h1{
+  align-items: flex-start;
+}
+/* IMAGE */
+
+#img{
+  height: 30rem;
+}
+.img{
+  margin-right: 3rem;
+}
+
+/* FOOTER */
+
+.footer{
+  display: flex;
+  height: 5vh;
+  background-color: #006670;
+  padding-left: 0.5rem;
+  padding-bottom: 1rem;
+}
+
+.footer .content-footer{
+  align-content: center;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}

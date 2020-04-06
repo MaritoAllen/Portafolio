@@ -1,0 +1,23 @@
+ .wrapper {
+   display: flex;
+   align-items: center;
+}
+.wrapper p{
+  font-size: 2rem;
+}
+.wrapper i {
+  padding: 10px;
+  transition: all ease-in-out 150ms;
+}
+.wrapper a:nth-child(3) {
+  color: #142F31;
+}
+.wrapper a:nth-child(2) {
+  color: #4867AA;
+}
+.wrapper a:nth-child(4) {
+  color: #1DA1F2;
+}
+.wrapper i:hover {
+  margin-top: 3px;
+}
